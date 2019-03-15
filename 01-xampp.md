@@ -4,15 +4,10 @@
 `>CREATE DATABASE IF NOT EXISTS `c25base1`;`  
 `>GRANT ALL PRIVILEGES ON `c25base1`.* TO 'c25mysql'@'localhost';`  
 
-<!---
-your comment goes here
-and here
--->
-
 ###### XAMPP configuración Servidor Virtual www.dominio.local
 
-####### httpd-vhosts.conf que se encuentra en la carpeta \xampp\apache\conf\extra\httpd-vhosts.conf  
-`
+####### httpd-vhosts.conf que se encuentra en la carpeta \xampp\apache\conf\extra\httpd-vhosts.conf    
+~~~
 NameVirtualHost *:80
 
 <VirtualHost *:80>
@@ -32,4 +27,4 @@ NameVirtualHost *:80
         # Allow from all
     </Directory>
 </VirtualHost>
-`
+~~~
