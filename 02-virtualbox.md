@@ -4,7 +4,7 @@
 `"C:\Program Files\Oracle\VirtualBox\VBoxManage.exe internalcommands sethduuid" "D:\VirtualBox VMs\midisco.vdi"`  
 
 ###### Verificar cuál es el contenido de un vdi
-`C:\Program Files\Oracle\VirtualBox\VBoxManage.exe showhdinfo "D:\VirtualBox VMs\midisco.vdi"`
+`"C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" showhdinfo "D:\VirtualBox VMs\midisco.vdi"`
 
 
 
