@@ -1,9 +1,9 @@
 ###### Creación de usuario
 ~~~
->CREATE USER 'c25mysql'@'localhost' IDENTIFIED BY 'lacontraseña'; 
->GRANT USAGE ON *.* TO 'c25mysql'@'localhost' REQUIRE NONE WITH MAX_QUERIES_PER_HOUR 0 MAX_CONNECTIONS_PER_HOUR 0 MAX_UPDATES_PER_HOUR 0 MAX_USER_CONNECTIONS 0;
->CREATE DATABASE IF NOT EXISTS `c25base1`;
->GRANT ALL PRIVILEGES ON `c25base1`.* TO 'c25mysql'@'localhost'; 
+CREATE USER 'c25mysql'@'localhost' IDENTIFIED BY 'lacontraseña'; 
+GRANT USAGE ON *.* TO 'c25mysql'@'localhost' REQUIRE NONE WITH MAX_QUERIES_PER_HOUR 0 MAX_CONNECTIONS_PER_HOUR 0 MAX_UPDATES_PER_HOUR 0 MAX_USER_CONNECTIONS 0;
+CREATE DATABASE IF NOT EXISTS `c25base1`;
+GRANT ALL PRIVILEGES ON `c25base1`.* TO 'c25mysql'@'localhost'; 
 ~~~
 
 ###### XAMPP configuración Servidor Virtual www.dominio.local
