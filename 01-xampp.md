@@ -36,3 +36,6 @@ NameVirtualHost *:80
 ###### Creating an SSL certificate
 - Go to the Apache directory \xampp\apache.
 - Run makecert.
+- Enter a PEM passphrase and the other information you are asked for. For Common Name, you should enter the domain you want to use for the virtual host, so the certificate is signed for that domain.
+- After processing all steps, you maybe want to import the cert into your browser (it lives under /xampp/apache/conf/ssl.crt/server.crt). Nevertheless, you will get a warning about insecure self-signed certificate after loading your website – you need to add it as an exception.
+
