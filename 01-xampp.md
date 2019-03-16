@@ -1,9 +1,10 @@
-#### Creación de usuario y base de datos MySQL
+#### Conexion MySQL
 ~~~
 cd c:\xampp\mysql\bin
 mysql.exe -u root --password
 ~~~
 
+#### Creación de usuario y base de datos MySQL
 ~~~
 CREATE USER 'c25mysql'@'localhost' IDENTIFIED BY 'lacontraseña'; 
 GRANT USAGE ON *.* TO 'c25mysql'@'localhost' REQUIRE NONE WITH MAX_QUERIES_PER_HOUR 0 MAX_CONNECTIONS_PER_HOUR 0 MAX_UPDATES_PER_HOUR 0 MAX_USER_CONNECTIONS 0;
