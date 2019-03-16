@@ -36,6 +36,7 @@ NameVirtualHost *:80
     ServerName www.veiga.local
     ServerAlias veiga.local
     <Directory "E:/xampp/htdocs/web">
+        Options All
         AllowOverride All
         Require all Granted
         # En versiones anteriores de Apache 2.4 poner estas directivas en lugar de las 2 anteriores.
