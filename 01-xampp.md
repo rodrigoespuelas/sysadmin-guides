@@ -10,6 +10,7 @@ GRANT ALL PRIVILEGES ON `c25base1`.* TO 'c25mysql'@'localhost';
 
 ###### httpd-vhosts.conf que se encuentra en la carpeta \xampp\apache\conf\extra\httpd-vhosts.conf    
 ~~~
+# Esta acción nos permisita trabajar con host virtuales basados en nombres. El * representa un número IP.
 NameVirtualHost *:80
 
 <VirtualHost *:80>
