@@ -18,7 +18,8 @@ cd \xampp\apache\bin
 httpd.exe -v
 ~~~
 
-#### XAMPP configuración Servidor Virtual
+#### XAMPP configuración Virtual Host
+https://httpd.apache.org/docs/2.4/vhosts/examples.html
 
 ###### httpd-vhosts.conf que se encuentra en la carpeta \xampp\apache\conf\extra\httpd-vhosts.conf    
 ~~~
