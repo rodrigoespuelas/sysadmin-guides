@@ -1,4 +1,4 @@
-#### Creación de usuario MySQL
+#### Creación de usuario y base de datos MySQL
 ~~~
 cd c:\xampp\mysql\bin
 mysql.exe -u root --password
