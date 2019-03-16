@@ -1,6 +1,6 @@
 #### Conexion MySQL
 ~~~
-cd c:\xampp\mysql\bin
+cd \xampp\mysql\bin
 mysql.exe -u root --password
 ~~~
 
@@ -10,6 +10,12 @@ CREATE USER 'c25mysql'@'localhost' IDENTIFIED BY 'lacontraseña';
 GRANT USAGE ON *.* TO 'c25mysql'@'localhost' REQUIRE NONE WITH MAX_QUERIES_PER_HOUR 0 MAX_CONNECTIONS_PER_HOUR 0 MAX_UPDATES_PER_HOUR 0 MAX_USER_CONNECTIONS 0;
 CREATE DATABASE IF NOT EXISTS `c25base1`;
 GRANT ALL PRIVILEGES ON `c25base1`.* TO 'c25mysql'@'localhost'; 
+~~~
+
+#### Version de apache
+~~~
+cd \xampp\apache\bin
+httpd.exe -v
 ~~~
 
 #### XAMPP configuración Servidor Virtual
