@@ -48,6 +48,7 @@ NameVirtualHost *:80
 
 #### Confirm that all the syntax in the Apache configuration is correct
 ~~~
+cd \xampp\apache\bin
 httpd.exe -t
 ~~~
 
