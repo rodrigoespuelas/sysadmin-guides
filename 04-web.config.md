@@ -1,3 +1,4 @@
+~~~
 <rewrite>
 	<rules>
 		<rule name="Redirect to http" enabled="true" patternSyntax="Wildcard" stopProcessing="true">
@@ -9,3 +10,4 @@
 		</rule>
 	</rules>
 </rewrite>
+~~~
