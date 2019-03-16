@@ -44,6 +44,11 @@ NameVirtualHost *:80
 </VirtualHost>
 ~~~
 
+#### Confirm that all the syntax in the Apache configuration is correct
+~~~
+httpd.exe -t
+~~~
+
 ##### HTTPS with virtual hosts on XAMPP
 
 ###### Creating an SSL certificate
