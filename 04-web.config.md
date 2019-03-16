@@ -1,3 +1,4 @@
+#### Redireccionar de HTTP a HTTPS
 ~~~
 <rewrite>
 	<rules>
