@@ -30,3 +30,5 @@ NameVirtualHost *:80
     </Directory>
 </VirtualHost>
 ~~~
+
+####### HTTPS with virtual hosts on XAMPP
